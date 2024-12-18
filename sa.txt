@@ -1,22 +1,3 @@
-#include<stdio.h>
-int main()
-{
-int a=0, b=20, c;
-printf("A=%d B=%d", a,b);
-c=a+b;
-printf("RESULT=%d",c);
-}
-//same programe using scanf
-
-#include<stdio.h>
-int main()
-{
-int a,b,c;
-printf("Enter thr value of A and B\n");
-scanf("%d%d",&a,&b);
-c=a+b;
-printf("RESULT=%d",c);
-}
 //SWAPPING of 2 numbers using 3rd variable.
 #include<stdio.h>
 int main()
@@ -28,13 +9,14 @@ a=b;
 b=c;
 printf("After swapping A=%d B=%d",a,b);
 }
-//same program using scanf
+//SWAPPING of 2 numbers using 3rd variable.
 #include<stdio.h>
 int main()
 {
-int a,b,c;
-printf("Enter the value of A and B\n");
-scanf("%d%d ,&a,&b);
-c=a+b;
-printf("RESULT=%d,c);
+int a=10,b=20,c;
+printf("Before swapping A=%d B=%d",a,b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf("After swapping A=%d B=%d",a,b);
 }
