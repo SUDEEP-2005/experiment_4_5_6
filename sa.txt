@@ -9,15 +9,15 @@ a=b;
 b=c;
 printf("After swapping A=%d B=%d",a,b);
 }
-//SWAPPING of 2 numbers without using third variable
+//same program using
+//SWAPPING of 2 numbers using 3rd variable.
 #include<stdio.h>
 int main()
 {
-int a=10,b=20;
-printf("Before swapping A=%d B=%d",a,b);
-a=a+b;
-b=a-b;
-a=a-b;
-printf("After swapping A=%d B=%d",a,b);
+int a=10,b=20,c;
+printf("Enter the value of A and B\n");
+scanf("%d%d",&a,&b);
+c=a+b;
+printf("RESULT=%d",c);
 }
 
