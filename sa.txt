@@ -18,7 +18,6 @@ printf("Before swapping A=%d B=%d",a,b);
 a=a+b;
 b=a-b;
 a=a-b;
-a=b;
-b=c;
 printf("After swapping A=%d B=%d",a,b);
 }
+
